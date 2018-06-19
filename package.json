@@ -1,0 +1,42 @@
+{
+  "name": "py-tool",
+  "version": "1.0.4",
+  "description": "py tool",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhphongdo/py-tool.git"
+  },
+  "keywords": [
+    "py-tool",
+    "py-tool",
+    "tools"
+  ],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhphongdo/py-tool/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/pluralize": "0.0.27",
+    "pluralize": "^7.0.0",
+    "underscore": "^1.9.1"
+  }
+}

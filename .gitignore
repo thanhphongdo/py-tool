@@ -1,0 +1,6 @@
+/node_modules/
+
+#IDE configuration files
+.idea
+.vscode
+*.iml
